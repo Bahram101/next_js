@@ -1,24 +1,11 @@
- 
-import React from "react";
-import A from "../components/A";
+import React from "react"; 
+import MainContainer from "../components/MainContainer";
 
 const Index = () => {
   return (
-    <div>
-      <div className="navbar">
-        <A href="/" text="Главная" />
-        <A href="/users" text="Пользователи" />
-      </div>
+    <MainContainer>
       <h1>Home page</h1>
-      <style jsx>
-        {`        
-          .navbar {
-            background: orange;
-            padding: 15px;
-          }        
-        `}
-      </style>
-    </div>
+    </MainContainer>
   );
 };
 
